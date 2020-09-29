@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+    <script src="responsive.js"></script>
+    <script src="cookies.js"></script>
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="description" content="SEW WEB PAGE">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="FERNANDO DE LA TORRE CUEVA- UO245182">
+    <title>CAZAFANTASMAS</title>
+</head>
+
+<body>
+    <h1>CAZAFANTASMAS</h1>
+    <nav class="nav" id="navbar">
+        <a href="index.html">Principal</a>
+        <a href="htmlAdicional1.html">Descripcion</a>
+        <a href="htmlAdicional2.html">Detalle</a>
+        <a class="active">Galeria</a>
+        <a href="form.html">Contacto</a>
+        <a href="javascript:void(0);" class="icon" onclick="responsive()">
+            <i class="fa fa-bars">a</i>
+        </a>
+    </nav>
+    <h2>Galeria Imagenes</h2>
+    <article class="galeria" style="--w: 260px; --h: 300px;">
+        <input type="radio" name="navegacion" id="_1" checked>
+        <input type="radio" name="navegacion" id="_2">
+        <input type="radio" name="navegacion" id="_3">
+        <input type="radio" name="navegacion" id="_4">
+        <img src="images/cf1.jpg" width="260" height="300" alt="imagen de los cazafantasmas 1" />
+        <img src="images/cf2.jpg" width="260" height="300" alt="imagen de los cazafantasmas 2" />
+        <img src="images/cf3.jpg" width="260" height="300" alt="imagen de los cazafantasmas 3" />
+        <img src="images/cf4.jpg" width="260" height="300" alt="imagen de los cazafantasmas 4" />
+    </article>
+
+    <section id="audio">
+        <h2>Cancion de la pelicula</h2>
+        <audio controls>
+            <source src="multimedia/cfmp3.ogg" type="audio/ogg">
+            <source src="multimedia/cfmp3.m4a" type="audio/mpeg">
+          Your browser does not support the audio element.
+          </audio>
+    </section>
+
+    <section id ="video">
+        <h2>trailer de la pelicula</h2>
+        <video controls>
+            <source src="multimedia/movie.mp4" type="video/mp4">
+            <source src="multimedia/movie.ogg" type="video/ogg">
+          Your browser does not support the video tag.
+          </video>
+    </section>
+
+    <footer>
+        <section class="footer-left">
+            <a href=" http://uniovi.es">
+                <img src="images/uniovi.PNG" alt="Pagina de la universidad de oviedo!" height="63" width="64" /></a>
+        </section>
+        <section class="footer-center">
+            <p>
+                Esta página ha sido diseñada por:
+
+            </p>
+            <p>
+                Fernando de la Torre Cueva
+            </p>
+        </section>
+        <section class="footer-right">
+            <a href=" http://jigsaw.w3.org/css-validator/check/referer ">
+                <img src="images/CSS3.png" alt="CSS Válido!" height="63" width="64" /></a>
+            <a href="https://validator.w3.org/check?uri=referer">
+                <img src="images/HTML5.png" alt=" HTML5 Válido!" /></a>
+        </section>
+        <section class="footer-center">
+            <p>
+                Formulario
+
+            </p>
+            <p>
+                Contacto ->
+            </p>
+        </section>
+        <section class="footer-right-plus">
+            <a href="form.html">
+                <img src="images/contacto.jpg" alt=" Icono contacto" height="63" width="64" />
+            </a>
+        </section>
+    </footer>
+
+</body>
+
+</html>

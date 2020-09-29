@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+    <script src="responsive.js"></script>
+    <script src="cookies.js"></script>
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="description" content="SEW WEB PAGE">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="FERNANDO DE LA TORRE CUEVA- UO245182">
+    <title>CAZAFANTASMAS</title>
+</head>
+
+<body>
+        <h1>CAZAFANTASMAS</h1>
+        <nav class="nav" id="navbar">
+            <a href="index.html">Principal</a>
+            <a href="htmlAdicional1.html">Descripcion</a>
+            <a href="htmlAdicional2.html">Detalle</a>
+            <a href="galeria.html">Galeria</a>
+            <a  class="active">Contacto</a>
+            <a href="javascript:void(0);" class="icon" onclick="responsive()">
+                <i class="fa fa-bars">a</i>
+            </a>
+        </nav>
+
+
+        <section>
+            <h2>Contacto</h2>
+            <p>
+                En esta página estamos encantados de recibir sugerencias por parte de los usuarios.
+            </p>
+            <form>
+                <fieldset>
+                    <legend>Datos del usuario:</legend>
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname"><br><br>
+                    <label for="lname">Message:</label><br><br>
+                    <textarea name="message" rows="10" cols="60"></textarea>
+                    <br><br>
+                    <button type="reset" onclick="alert('Consulta enviada!')">Enviar</button>
+                </fieldset>
+            </form>
+        </section>
+
+
+        <footer>
+            <section class="footer-left">
+                <a href=" http://uniovi.es">
+                    <img src="images/uniovi.PNG" alt="Pagina de la universidad de oviedo!" height="63" width="64" /></a>
+            </section>
+            <section class="footer-center">
+                <p>
+                    Esta página ha sido diseñada por:
+
+                </p>
+                <p>
+                    Fernando de la Torre Cueva
+                </p>
+            </section>
+            <section class="footer-right">
+                <a href=" http://jigsaw.w3.org/css-validator/check/referer ">
+                    <img src="images/CSS3.png" alt="CSS Válido!" height="63" width="64" /></a>
+                <a href="https://validator.w3.org/check?uri=referer">
+                    <img src="images/HTML5.png" alt=" HTML5 Válido!" /></a>
+            </section>
+            <section class="footer-center">
+                <p>
+                    Formulario
+                    
+                </p>
+                <p>
+                    Contacto ->
+                </p>
+            </section>
+            <section class="footer-right-plus">
+                <a href="form.html">
+                    <img src="images/contacto.jpg" alt=" Icono contacto" height="63" width="64"/>
+                </a>
+            </section>
+        </footer>
+
+</body>
+
+</html>
