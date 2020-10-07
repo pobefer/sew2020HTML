@@ -5,7 +5,7 @@
     <script src="responsive.js"></script>
     <script src="cookies.js"></script>
     <link rel="stylesheet" type="text/css" href="estilo.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="estiloGaleria.css" />
     <meta charset="UTF-8">
     <meta name="description" content="SEW WEB PAGE">
     <meta name="keywords" content="HTML, CSS">
@@ -15,29 +15,25 @@
 
 <body>
     <h1>CAZAFANTASMAS</h1>
-    <nav class="nav" id="navbar">
+    <nav class="nav" >
         <a href="index.html">Principal</a>
         <a href="htmlAdicional1.html">Descripcion</a>
         <a href="htmlAdicional2.html">Detalle</a>
         <a class="active">Galeria</a>
         <a href="form.html">Contacto</a>
-        <a href="javascript:void(0);" class="icon" onclick="responsive()">
-            <em class="fa fa-bars">a</em>
-        </a>
     </nav>
-    <h2>Galeria Imagenes</h2>
-    <article class="galeria" style="--w: 260px; --h: 300px;">
-        <input type="radio" name="navegacion" id="_1" checked>
-        <input type="radio" name="navegacion" id="_2">
-        <input type="radio" name="navegacion" id="_3">
-        <input type="radio" name="navegacion" id="_4">
-        <img src="images/cf1.jpg" width="260" height="300" alt="imagen de los cazafantasmas 1" />
-        <img src="images/cf2.jpg" width="260" height="300" alt="imagen de los cazafantasmas 2" />
-        <img src="images/cf3.jpg" width="260" height="300" alt="imagen de los cazafantasmas 3" />
-        <img src="images/cf4.jpg" width="260" height="300" alt="imagen de los cazafantasmas 4" />
-    </article>
 
-    <section id="audio">
+    <section class="seccionGaleria">
+        <h2>Galeria Imagenes</h2>
+        <div class="galeria">
+            <img src="images/cf1.jpg" alt="imagen de los cazafantasmas 1" />
+            <img src="images/cf2.jpg" alt="imagen de los cazafantasmas 2" />
+            <img src="images/cf3.jpg" alt="imagen de los cazafantasmas 3" />
+            <img src="images/cf4.jpg" alt="imagen de los cazafantasmas 4" />
+        </div>
+    </section>
+
+    <section class="audio">
         <h2>Cancion de la pelicula</h2>
         <audio controls>
             <source src="multimedia/cfmp3.ogg" type="audio/ogg">
@@ -46,7 +42,7 @@
           </audio>
     </section>
 
-    <section id ="video">
+    <section class ="video">
         <h2>trailer de la pelicula</h2>
         <video controls>
             <source src="multimedia/movie.mp4" type="video/mp4">

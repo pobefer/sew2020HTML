@@ -1,0 +1,34 @@
+/*0,1,0*/
+.seccionGaleria{
+    text-align:center;
+}
+
+/*0,1,0*/
+.galeria {
+    margin:0.5em auto;
+    border: 1px solid #555;
+    position: relative;  
+    display: inline-flex;
+  }
+  /*0,1,1*/
+  .galeria img {
+    position: relative;
+    height: 20em;
+    width: 15em;
+    padding: 2em;
+  }
+  
+  /*0,0,1*/
+  video{
+    width: 25em; 
+    height: 20em;
+  }
+  
+  /*0,1,0*/
+  .video, .audio{
+    text-align:center;
+  }
+/*0,1,1*/
+  section:nth-child(1){
+    text-align: left;
+  }
