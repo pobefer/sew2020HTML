@@ -1,26 +1,30 @@
 /*0,1,0*/
 .seccionGaleria{
     text-align:center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:center;
 }
 
 /*0,1,0*/
 .galeria {
-    margin:0.5em auto;
     border: 1px solid #555;
-    position: relative;  
-    display: inline-flex;
-  }
-  /*0,1,1*/
-  .galeria img {
+    display: flex;
+    flex-flow: column;
+}
+
+/*0,1,1*/
+.galeria img {
     position: relative;
     height: 20em;
     width: 15em;
-    padding: 2em;
+    padding: 2em; 
+    align-self: center; 
   }
   
   /*0,0,1*/
   video{
-    width: 25em; 
+    width: 25em;
     height: 20em;
   }
   
@@ -28,7 +32,5 @@
   .video, .audio{
     text-align:center;
   }
-/*0,1,1*/
-  section:nth-child(1){
-    text-align: left;
-  }
+
+

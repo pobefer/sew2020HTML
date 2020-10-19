@@ -34,7 +34,6 @@ border-radius: 1.5625em;
 /*0,0,1*/
 section{
   background-color:beige; 
-  border: black;
   padding: 0.625em 1.5625em;
 }
 /*0,0,1*/
@@ -74,18 +73,15 @@ ul li {
   margin-bottom: 0.3125em;
   margin-left: 2.1875em;
 }
+
 /*0,1,0*/
-.inline{
-display: inline-flex;
-}
-/*0,1,0*/
-.nav {
+nav {
 background-color:lightgreen;
 overflow: hidden;
+display: inline-flex;
 }
 /*0,0,2*/
 nav a {
-float: left;
 display: block;
 color:black;
 text-align: center;
@@ -94,33 +90,26 @@ text-decoration: none;
 font-size: 17px;
 }
 /*0,2,1*/
-.nav a:hover {
+nav a:hover {
 background-color: #ddd;
 color: black;
 }
 /*0,2,1*/
-.nav a.active {
+nav a.active {
 background-color:black;
 color: white;
 }
-/*0,1,1*/
-nav .icon {
-display: none;
-}
+
 /*0,0,1*/
 footer{
-position: static;
-bottom: 0;
 background-color: #292c2f;
-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-box-sizing: border-box;
-width: 100%;
 font: bold 16px tahoma, sans-serif;
 padding: 3.4375em 3.125em;
 margin-top: 5em;
 display: flex;
 align-items: center;
-
+justify-content:center;
+flex-flow: row wrap;
 }
 
 /*0,0,2*/
@@ -128,12 +117,22 @@ footer div{
 color: white;
 vertical-align: top;
 background-color: #292c2f;
+padding: 1em;
 }
 
-/*0,1,1*/
-img .inline{
-display: inline-flex;
+/*0,1,0*/
+.inline{
+  display: inline-flex;
+  }
+
+.inline img{
+  width: 12em;
+  height: 10.5em;
+  align-self: center;
+  padding: 1em;
 }
+
+
 
 
 
