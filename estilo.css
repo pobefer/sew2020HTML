@@ -133,7 +133,7 @@ padding: 1em;
 }
 /*0,2,3*/
 table tr.puntuacion > td:not(:first-child){
-  color: darkorange;
+  font-weight: bold;
 }
 
 
