@@ -74,7 +74,7 @@ ul li {
   margin-left: 2.1875em;
 }
 
-/*0,1,0*/
+/*0,0,1*/
 nav {
 background-color:lightgreen;
 overflow: hidden;
@@ -124,7 +124,7 @@ padding: 1em;
 .inline{
   display: inline-flex;
   }
-
+/*0,1,1*/
 .inline img{
   width: 12em;
   height: 10.5em;
